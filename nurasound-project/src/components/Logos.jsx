@@ -9,9 +9,8 @@ import Rollingstone from '../assets/logos/rollings.png'
 
 const Logos = () => {
   return (
-    <div className='w-full h-[550px] bg-black/50 p-8'>
-      <div className=''>
-        <p>AS FEATURED IN</p>
+    <div className='w-screen h-[500px] bg-black/50'>
+      <p>AS FEATURED IN</p>
         <div className='flex w-[15%] ml-6'>
             <img src={Forbes} alt="" />
             <img src={Wired} alt="" />
@@ -45,7 +44,6 @@ const Logos = () => {
             <img src={Techradar} alt="" />
             <img src={Techcrunch} alt="" />
         </div>
-      </div>
     </div>
   )
 }

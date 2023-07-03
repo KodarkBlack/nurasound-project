@@ -11,9 +11,9 @@ const Cards = () => {
             <h1 className='text-white text-xl font-bold mt-[-5%]'>OFF</h1>
             <img className='ml-[50%] mt-[-40%] ' width={500} src={Transmitter} alt="" />
             <div className='items-center absolute'>
-            <h5 className='text-black text-xl w-[210px] h-16 mt-5 p-5 font-medium'>Nura Bluetooth 5.3 <br /> Audio Transmitter</h5>
-            <p className='font-medium mt-3'>$44.25</p>
-            <Button className='bg-blue-900 ' />
+              <h5 className='text-black text-xl w-[210px] h-16 mt-5 p-5 font-medium'>Nura Bluetooth 5.3 <br /> Audio Transmitter</h5>
+              <p className='font-medium mt-3'>$44.25</p>
+              <Button props='SHOP NOW' className='bg-blue-900 rounded-full text-white text-center w-[55%] h-8 ' />
             </div>
             
         </div>

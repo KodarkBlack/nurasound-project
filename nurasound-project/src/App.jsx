@@ -10,10 +10,16 @@ import Logos from './components/Logos'
 function App() {
   return (
     <>
-      {/* <ForYourEars /> */}
-      <Home />
+      {/* <Home />
+      <FeaturedProduct />
+      <ForYourEars />
+      <Subscription /> */}
+      {/* <Logos /> */}
+      {/* <Home />
+      <FeaturedProduct /> */}
       {/* <Subscription /> */}
-      <Logos />
+      {/* <Logos /> */}
+      <Footer />
     </>
   )
 }
