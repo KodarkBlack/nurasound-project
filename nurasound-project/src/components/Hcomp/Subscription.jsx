@@ -10,6 +10,7 @@ const Subscription = () => {
        <div className='w-screen h-[600px] p-10  bg-black'>
              <img className='ml-[14%]' width={950} src={YoutubeLogo} alt="" />
        </div>
+       
     </div>
 
     // <div id='main' className='w-screen h-[1200px] bg-black'>

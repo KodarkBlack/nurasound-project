@@ -3,7 +3,7 @@ import Logo from '../assets/twentyfive.png'
 
 const Footer = () => {
   return (
-    <div className=' h-[500px] bg-black items-center'>
+    <div className='w-screen h-[500px] bg-black items-center'>
       {/* Footer content */}
       <footer className='flex text-white'>
         <ul>
