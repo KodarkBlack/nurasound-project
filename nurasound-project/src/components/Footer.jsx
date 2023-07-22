@@ -3,9 +3,9 @@ import Logo from '../assets/twentyfive.png'
 
 const Footer = () => {
   return (
-    <div className='w-screen h-[500px] bg-black items-center'>
+    <div className='w-screen h-[450px] bg-black items-center'>
       {/* Footer content */}
-      <footer className='flex text-white'>
+      <footer className='flex text-white justify-evenly p-5'>
         <ul>
           <img src={Logo} alt="" />
           <p>Nura designs headphones tuned to you. <br /> Bringing you closer to music with personalized sound.</p>
@@ -52,7 +52,7 @@ const Footer = () => {
 
 
       </footer>
-      <div className='flex text-white justify-between'>
+      <div className='flex text-white justify-between p-5'>
           <p>Copyright © 2022 Nura Operations Pty Ltd. All rights reserved.</p>
           <p>Copyright © 2022 Nura Operations Pty Ltd. All rights reserved.</p>
         </div>

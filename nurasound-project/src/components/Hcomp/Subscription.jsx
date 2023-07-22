@@ -26,10 +26,7 @@ const Subscription = () => {
     //         </div>
     //     </div>
 
-    //     <div className='w-[93%] h-[600px] m-10 bg-white'>
-    //         <img src={YoutubeLogo} alt="" />
-    //     </div>
-    // </div>
+   
   )
 }
 

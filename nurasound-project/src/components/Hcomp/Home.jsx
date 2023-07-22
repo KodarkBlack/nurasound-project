@@ -14,7 +14,7 @@ const Home = () => {
         <div className='mt-[25%] items-center'>
           <p className='text-white text-center'>OUR BIGGEST SALE NOW LIVE</p>
           <h5 className='w-[100%] text-[40px] text-white text-center mb-5'>Black Friday Starts Now</h5>
-          <Button props='SHOP SALE NOW' className='bg-white text-black rounded-full h-8 w-[15%]' />
+          <Button props='SHOP SALE NOW' className='bg-white flex justify-center items-center text-black rounded-full h-8 w-[15%]' />
         </div>
       </div>
     </div>
