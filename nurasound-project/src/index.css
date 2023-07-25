@@ -1,3 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,400;0,500;1,700&family=Inter:wght@400;500;700&family=Space+Grotesk:wght@400;500;700&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+    .kflex {
+        @apply flex justify-between items-center;
+    }
+}
+
+body {
+    background-color: #171717;
+    overflow-x: hidden;
+}
+  
+a:hover {
+    text-decoration: underline;
+    transition: 0.3s;
+}

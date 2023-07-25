@@ -12,11 +12,9 @@ function App() {
   return (
     <>
       <Home />
+      <FeaturedProduct />
       <ForYourEars />
       <PlayDevice />
-      <Subscription />
-      <Logos />
-      <Footer />
     </>
   )
 }

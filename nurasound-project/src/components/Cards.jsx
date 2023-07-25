@@ -4,7 +4,7 @@ import Button from './Button'
 
 const Cards = () => {
   return (
-    <div className='w-[230px] h-[300px] rounded-2xl bg-white shadow p-4 flex'>
+    <div className='w-[230px] h-[300px] rounded-2xl bg-white shadow p-4 flex mb-10'>
         {/* Card Content */}
         <div className='w-[70px] h-[70px] items-center rounded-full bg-black  ml-[5%] z-50'>
             <h1 className="text-white text-center text-xl  font-bold p-3 ">30%</h1>

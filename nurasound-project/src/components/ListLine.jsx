@@ -1,14 +1,27 @@
-import React from 'react'
+import React from 'react';
+import PropTypes from "prop-types";
 
-const ListLine = () => {
+const ListLine = ({ className }) => {
   return (
-    <ul className='text-[17px] ml-[-40%] text-white  flex gap-5'>
-      <li>Products</li>
-      <li>Subscription</li>
-      <li>Why Nura?</li>
-      <li>Support</li>
+    <ul className={'${className'}>
+      <a href="">
+        <li>Products</li>
+      </a>
+      <a href="">
+        <li>Subscription</li>
+      </a>
+      <a href="">
+        <li>Why Nura?</li>
+      </a>
+      <a href="">
+        <li>Support</li>
+      </a>
     </ul>
   )
-}
+};
+
+ListLine.propTypes = {
+  className: PropTypes.string.isRequired,
+};
 
 export default ListLine
